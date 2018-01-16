@@ -21,10 +21,16 @@ public class Hellos {
         builder.append(auroraSaysHello());
         builder.append(kaiSaysHello());
         builder.append(kkSaysHello());
+        builder.append(jacobSaysHello());
+        builder.append(mattSaysHello());
         builder.append(nicSaysHello());
 
         return builder.toString();
     }
+
+    private static String jacobSaysHello() { return "Jacob says 'Hello!'\n";}
+
+    private static String mattSaysHello() { return "Matt says 'Hello!'\n";}
 
     private static String nicSaysHello() {
         return "Nic says 'Hello!'\n";
