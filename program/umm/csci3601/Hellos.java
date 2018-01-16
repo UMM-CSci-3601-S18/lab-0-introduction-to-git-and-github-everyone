@@ -14,12 +14,22 @@ public class Hellos {
         System.out.println(output);
     }
 
+    private static String isaacsayshello(){
+        return "Isaac says 'Hello!'\n" ;
+    }
+
+    private static String xaisayshello(){
+        return "Xai says 'Hello!'\n" ;
+    }
+
     public static String generateOutput() {
         StringBuilder builder = new StringBuilder();
 
         builder.append(WELCOME_LINE + "\n");
         builder.append(nicSaysHello());
         builder.append(kkSaysHello());
+        builder.append(isaacsayshello());
+        builder.append(xaisayshello());
 
         return builder.toString();
     }
