@@ -9,6 +9,8 @@ public class Hellos {
     public static final String WELCOME_LINE = "Hello, folks!";
 
     public static void main(String[] args) {
+
+
         String output = generateOutput();
 
         System.out.println(output);
@@ -20,6 +22,8 @@ public class Hellos {
         builder.append(WELCOME_LINE + "\n");
         builder.append(nicSaysHello());
         builder.append(kkSaysHello());
+        builder.append(john_says_hello());
+        builder.append(song_says_hello());
 
         return builder.toString();
     }
@@ -32,4 +36,11 @@ public class Hellos {
         return "KK says 'Hello!'\n";
     }
 
+    private static String john_says_hello(){
+        return "John says 'Hello!'\n";
+    }
+
+    private static String song_says_hello(){
+        return "Song says 'Hello!'\n";
+    }
 }
