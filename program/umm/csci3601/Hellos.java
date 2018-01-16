@@ -36,11 +36,22 @@ public class Hellos {
         builder.append(xaisayshello());
         builder.append(john_says_hello());
         builder.append(song_says_hello());
-
+        builder.append(Sungjae_says_hello());
+        builder.append(Francisco_says_hello());
         builder.append(hunter_says_hello());
         builder.append(travis_says_hello());
 
         return builder.toString();
+    }
+
+    private static String Sungjae_says_hello() {
+
+        return "Sungjae says 'Hello!'\n";
+    }
+
+    private static String Francisco_says_hello() {
+
+        return "Francisco says 'Hello!'\n";
     }
 
     private static String jacobSaysHello() { return "Jacob says 'Hello!'\n";}
