@@ -18,10 +18,12 @@ public class Hellos {
         StringBuilder builder = new StringBuilder();
 
         builder.append(WELCOME_LINE + "\n");
-        builder.append(auroraSaysHello());
-        builder.append(kaiSaysHello());
-        builder.append(kkSaysHello());
         builder.append(nicSaysHello());
+        builder.append(kkSaysHello());
+        builder.append(john_says_hello());
+        builder.append(song_says_hello());
+        builder.append(kaiSaysHello());
+        builder.append(auroraSaysHello());
 
         return builder.toString();
     }
@@ -34,7 +36,15 @@ public class Hellos {
         return "KK says 'Hello!'\n";
     }
 
-    private static String auroraSaysHello() {
+    private static String john_says_hello(){
+        return "John says 'Hello!'\n";
+    }
+
+    private static String song_says_hello(){
+        return "Song says 'Hello!'\n";
+    }
+
+    private static String auroraSaysHello(){
         return "Aurora says 'Hello!'\n";
     }
 
