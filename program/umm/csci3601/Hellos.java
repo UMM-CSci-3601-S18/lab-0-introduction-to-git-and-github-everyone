@@ -21,6 +21,9 @@ public class Hellos {
         builder.append(nicSaysHello());
         builder.append(kkSaysHello());
 
+        builder.append(hunter_says_hello());
+        builder.append(travis_says_hello());
+
         return builder.toString();
     }
 
@@ -32,4 +35,11 @@ public class Hellos {
         return "KK says 'Hello!'\n";
     }
 
+    private static String hunter_says_hello() {
+        return "Hunter says 'Hello!'\n";
+    }
+
+    private static String travis_says_hello() {
+        return "Travis says 'Hello!'\n";
+    }
 }
