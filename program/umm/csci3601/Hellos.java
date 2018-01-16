@@ -14,14 +14,32 @@ public class Hellos {
         System.out.println(output);
     }
 
+    private static String isaacsayshello(){
+        return "Isaac says 'Hello!'\n" ;
+    }
+
+    private static String xaisayshello(){
+        return "Xai says 'Hello!'\n" ;
+    }
+
     public static String generateOutput() {
         StringBuilder builder = new StringBuilder();
 
         builder.append(WELCOME_LINE + "\n");
-        builder.append(nicSaysHello());
+        builder.append(auroraSaysHello());
+        builder.append(isaacsayshello());
+        builder.append(jacobSaysHello());
+        builder.append(kaiSaysHello());
         builder.append(kkSaysHello());
+        builder.append(mattSaysHello());
+        builder.append(nicSaysHello());
+        builder.append(xaisayshello());
+        builder.append(john_says_hello());
+        builder.append(song_says_hello());
         builder.append(Sungjae_says_hello());
         builder.append(Francisco_says_hello());
+        builder.append(hunter_says_hello());
+        builder.append(travis_says_hello());
 
         return builder.toString();
     }
@@ -36,7 +54,9 @@ public class Hellos {
         return "Francisco says 'Hello!'\n";
     }
 
+    private static String jacobSaysHello() { return "Jacob says 'Hello!'\n";}
 
+    private static String mattSaysHello() { return "Matt says 'Hello!'\n";}
 
     private static String nicSaysHello() {
         return "Nic says 'Hello!'\n";
@@ -46,4 +66,29 @@ public class Hellos {
         return "KK says 'Hello!'\n";
     }
 
+    private static String john_says_hello(){
+        return "John says 'Hello!'\n";
+    }
+
+    private static String song_says_hello(){
+        return "Song says 'Hello!'\n";
+    }
+
+    private static String auroraSaysHello(){
+        return "Aurora says 'Hello!'\n";
+    }
+
+    private static String kaiSaysHello() {
+        return "Kai says 'Hello!'\n";
+    }
+
+
+
+    private static String hunter_says_hello() {
+        return "Hunter says 'Hello!'\n";
+    }
+
+    private static String travis_says_hello() {
+        return "Travis says 'Hello!'\n";
+    }
 }
