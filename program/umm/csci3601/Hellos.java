@@ -18,10 +18,10 @@ public class Hellos {
         StringBuilder builder = new StringBuilder();
 
         builder.append(WELCOME_LINE + "\n");
-        builder.append(nicSaysHello());
-        builder.append(kkSaysHello());
-        builder.append(kaiSaysHello());
         builder.append(auroraSaysHello());
+        builder.append(kaiSaysHello());
+        builder.append(kkSaysHello());
+        builder.append(nicSaysHello());
 
         return builder.toString();
     }
@@ -41,5 +41,7 @@ public class Hellos {
     private static String kaiSaysHello() {
         return "Kai says 'Hello!'\n";
     }
+
+
 
 }
