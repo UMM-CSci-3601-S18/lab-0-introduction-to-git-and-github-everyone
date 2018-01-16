@@ -18,18 +18,13 @@ public class Hellos {
         StringBuilder builder = new StringBuilder();
 
         builder.append(WELCOME_LINE + "\n");
-        builder.append(nicSaysHello());
-        builder.append(kkSaysHello());
+        builder.append(jubairSaysHello());
+        builder.append(ahnafSaysHello());
 
         return builder.toString();
     }
 
-    private static String nicSaysHello() {
-        return "Nic says 'Hello!'\n";
-    }
+    private static String jubairSaysHello() { return "Jubair Says 'Hello'\n";}
 
-    private static String kkSaysHello() {
-        return "KK says 'Hello!'\n";
-    }
-
+    private static String ahnafSaysHello() { return "Ahnaf Says 'Hello'\n";}
 }
