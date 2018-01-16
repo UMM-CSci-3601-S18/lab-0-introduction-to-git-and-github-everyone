@@ -27,12 +27,12 @@ public class Hellos {
 
         builder.append(WELCOME_LINE + "\n");
         builder.append(auroraSaysHello());
+        builder.append(isaacsayshello());
+        builder.append(jacobSaysHello());
         builder.append(kaiSaysHello());
         builder.append(kkSaysHello());
-        builder.append(jacobSaysHello());
         builder.append(mattSaysHello());
         builder.append(nicSaysHello());
-        builder.append(isaacsayshello());
         builder.append(xaisayshello());
 
         return builder.toString();
