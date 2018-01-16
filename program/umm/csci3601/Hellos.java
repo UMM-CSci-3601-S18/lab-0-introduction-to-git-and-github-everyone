@@ -14,6 +14,14 @@ public class Hellos {
         System.out.println(output);
     }
 
+    private static String isaacsayshello(){
+        return "Isaac says 'Hello!'\n" ;
+    }
+
+    private static String xaisayshello(){
+        return "Xai says 'Hello!'\n" ;
+    }
+
     public static String generateOutput() {
         StringBuilder builder = new StringBuilder();
 
@@ -22,6 +30,8 @@ public class Hellos {
         builder.append(kkSaysHello());
         builder.append(kaiSaysHello());
         builder.append(auroraSaysHello());
+        builder.append(isaacsayshello());
+        builder.append(xaisayshello());
 
         return builder.toString();
     }
