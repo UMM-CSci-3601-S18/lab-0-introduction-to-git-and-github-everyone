@@ -20,9 +20,15 @@ public class Hellos {
         builder.append(WELCOME_LINE + "\n");
         builder.append(nicSaysHello());
         builder.append(kkSaysHello());
+        builder.append(jacobSaysHello());
+        builder.append(mattSaysHello());
 
         return builder.toString();
     }
+
+    private static String jacobSaysHello() { return "Jacob says 'Hello!'\n";}
+
+    private static String mattSaysHello() { return "Matt says 'Hello!'\n";}
 
     private static String nicSaysHello() {
         return "Nic says 'Hello!'\n";
