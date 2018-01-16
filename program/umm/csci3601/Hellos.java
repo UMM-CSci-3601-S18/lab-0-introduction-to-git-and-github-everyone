@@ -24,7 +24,7 @@ public class Hellos {
         return builder.toString();
     }
 
-    private static String jubairSaysHello() { return "Jubair says 'Hello'\n";}
+    private static String jubairSaysHello() { return "Jubair says 'Hello!'\n";}
 
-    private static String ahnafSaysHello() { return "Ahnaf says 'Hello'\n";}
+    private static String ahnafSaysHello() { return "Ahnaf says 'Hello!'\n";}
 }
