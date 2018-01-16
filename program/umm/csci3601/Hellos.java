@@ -20,6 +20,8 @@ public class Hellos {
         builder.append(WELCOME_LINE + "\n");
         builder.append(nicSaysHello());
         builder.append(kkSaysHello());
+        builder.append(John_says_hello());
+        builder.append(Abe_says_hello());
 
         return builder.toString();
     }
@@ -30,6 +32,13 @@ public class Hellos {
 
     private static String kkSaysHello() {
         return "KK says 'Hello!'\n";
+    }
+
+    private static String John_says_hello() {
+        return "John says 'Hello!'\n";
+    }
+    private static String Abe_says_hello() {
+        return "Abe says 'Hello!'\n";
     }
 
 }
