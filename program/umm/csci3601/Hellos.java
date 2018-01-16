@@ -35,6 +35,9 @@ public class Hellos {
         builder.append(nicSaysHello());
         builder.append(xaisayshello());
 
+        builder.append(hunter_says_hello());
+        builder.append(travis_says_hello());
+
         return builder.toString();
     }
 
@@ -60,4 +63,11 @@ public class Hellos {
 
 
 
+    private static String hunter_says_hello() {
+        return "Hunter says 'Hello!'\n";
+    }
+
+    private static String travis_says_hello() {
+        return "Travis says 'Hello!'\n";
+    }
 }
