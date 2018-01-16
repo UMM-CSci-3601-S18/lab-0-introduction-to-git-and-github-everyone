@@ -20,6 +20,11 @@ public class Hellos {
         builder.append(WELCOME_LINE + "\n");
         builder.append(nicSaysHello());
         builder.append(kkSaysHello());
+        builder.append(kaiSaysHello());
+        builder.append(auroraSaysHello());
+
+        builder.append(davidSaysHello());
+        builder.append(ethanSaysHello());
 
         return builder.toString();
     }
@@ -32,4 +37,19 @@ public class Hellos {
         return "KK says 'Hello!'\n";
     }
 
+    private static String auroraSaysHello() {
+        return "Aurora says 'Hello!'\n";
+    }
+
+    private static String kaiSaysHello() {
+        return "Kai says 'Hello!'\n";
+    }
+
+    private static String davidSaysHello() {
+        return "David says 'Hello!'\n";
+    }
+
+    private static String ethanSaysHello() {
+        return "Ethan says 'Hello!'\n";
+    }
 }
