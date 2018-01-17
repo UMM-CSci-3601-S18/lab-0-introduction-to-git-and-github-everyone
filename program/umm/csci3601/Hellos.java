@@ -40,6 +40,8 @@ public class Hellos {
         builder.append(Francisco_says_hello());
         builder.append(hunter_says_hello());
         builder.append(travis_says_hello());
+        builder.append(johnHoff_says_hello());
+        builder.append(abe_says_hello());
 
         return builder.toString();
     }
@@ -82,13 +84,19 @@ public class Hellos {
         return "Kai says 'Hello!'\n";
     }
 
-
-
     private static String hunter_says_hello() {
         return "Hunter says 'Hello!'\n";
     }
 
     private static String travis_says_hello() {
         return "Travis says 'Hello!'\n";
+    }
+
+    private static String johnHoff_says_hello(){
+        return "John Hoff says 'Hello!'\n";
+    }
+
+    private static String abe_says_hello() {
+        return "Abe says 'Hello!'\n";
     }
 }
